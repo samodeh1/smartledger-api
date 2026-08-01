@@ -1,17 +1,25 @@
 {
   "name": "auth-backend",
   "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/samodeh1/smartledger-api#readme",
+  "bugs": {
+    "url": "https://github.com/samodeh1/smartledger-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samodeh1/smartledger-api.git"
+  },
+  "license": "ISC",
+  "author": "sam odeh",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "description": "",
   "dependencies": {
     "axios": "^1.18.1",
     "bcryptjs": "^3.0.3",
